@@ -1,3 +1,5 @@
+import time
+
 print("Hello world")
 
 for i in range(5000):
@@ -5,7 +7,9 @@ for i in range(5000):
 
 arr = []
 for i in range(50):
-    arr.append("How are you")
+    arr.append("How are you?")
 
 for elem in arr:
     print(elem)
+
+print(time.localtime().tm_year)
