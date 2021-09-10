@@ -5,4 +5,7 @@ for i in range(5000):
 
 arr = []
 for i in range(50):
-    arr.Add("How are you?")
+    arr.append("How are you")
+
+for elem in arr:
+    print(elem)
