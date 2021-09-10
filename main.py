@@ -13,3 +13,4 @@ for elem in arr:
     print(elem)
 
 print(time.localtime().tm_year)
+print("Thats all")
